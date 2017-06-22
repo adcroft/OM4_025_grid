@@ -33,7 +33,7 @@ ocean_hgrid.nc: supergrid.nc
 
 MIDAS:
 	git clone https://github.com/mjharriso/MIDAS.git
-	(cd MIDAS; git checkout cb00d284c7b3ac652ba1dcf93ca42f02bc3c4a91)
+	(cd MIDAS; git checkout 2c107f8bc2c53f47d2e16be1fbd412d865287abd)
 
 local: MIDAS 
 	-rm -rf $</build/*
