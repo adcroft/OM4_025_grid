@@ -1,0 +1,10 @@
+stages:
+  - build
+
+# Test
+build:
+  stage: build
+  tags:
+    - pan
+  script:
+    - ./Jenkins.csh
