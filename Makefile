@@ -7,7 +7,6 @@
 #   make all
 
 SHELL=tcsh -f
-NP=8
 
 all: ocean_hgrid.nc
 	md5sum -c md5sums.txt
